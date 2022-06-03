@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>javascript</title>
+        <script>
+            function image1(){
+                document.getElementById("demo").src="img2.jpg";
+                
+            }
+            function image2(){
+                document.getElementById("demo").src="img1.jpg";
+                
+            }
+        </script>
+    </head>
+<body>
+    <h1 style="text-align:center;">Image roll over</h1>
+    <img src="img2.jpg" id="demo" height="600px" width="800px" onmouseover="image1()" onmouseout="image2()" style="display:inline;" >
+</body>
